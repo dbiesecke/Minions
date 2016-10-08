@@ -26,7 +26,7 @@ RUN \
           icnsutils \
           python-pip python-twisted-bin python-twisted-core \
           at git \
-          apache2 libapache2-mod-wsgi python-django at ssl-cert python-dev \
+          apache2 libapache2-mod-wsgi python-django at ssl-cert python-dev python-twisted python2.7-twisted python2.7-twisted-bin python2.7-twisted-core python2.7-twisted-runner python3-twisted-experimental \
         ;
 
 # install nodejs
