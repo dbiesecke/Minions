@@ -1,4 +1,4 @@
-FROM tutum/apache-php
+FROM ubuntu:16.04
 
 # Make sure apt-get is up to date and dependent packages are installed
 RUN \
