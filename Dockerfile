@@ -32,7 +32,7 @@ RUN \
 # install nodejs
 RUN rm -rf /var/lib/apt/lists/*
 
-ADD server.pem /etc/apache2/ssl/apache.pem
+#ADD server.pem /etc/apache2/ssl/apache.pem
 ADD script.sh /root/script.sh
 ADD . /var/www/minions
 
